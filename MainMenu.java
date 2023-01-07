@@ -7,7 +7,7 @@ public class MainMenu extends javax.swing.JFrame {
         initComponents();
     }
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
         scrollOriginalPane = new javax.swing.JScrollPane();
@@ -121,19 +121,20 @@ public class MainMenu extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }// </editor-fold>                        
 
-    private void transferButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_transferButtonActionPerformed
+    private void transferButtonActionPerformed(java.awt.event.ActionEvent evt) {                                               
         scrollFixedText.setText(new FixArabicText().Transfer(scrollOriginalText.getText()));
-    }//GEN-LAST:event_transferButtonActionPerformed
+    }                                              
 
-    private void MenuAboutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MenuAboutActionPerformed
-        JOptionPane.showMessageDialog(null, "Anas15gh\nVersion: 0.1\nLast update: 1/5/2023", "About", JOptionPane.INFORMATION_MESSAGE);
-    }//GEN-LAST:event_MenuAboutActionPerformed
+    private void MenuAboutActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        JOptionPane.showMessageDialog(null, "Anas15gh\nVersion: 0.2\nLast update: 1/7/2023", "About", JOptionPane.INFORMATION_MESSAGE);
+        System.out.print(new FixArabicText().GetRightSymbol('ب', 'ل', 'آ') + "");
+    }                                         
 
-    private void MenuExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MenuExitActionPerformed
+    private void MenuExitActionPerformed(java.awt.event.ActionEvent evt) {                                         
         System.exit(0);
-    }//GEN-LAST:event_MenuExitActionPerformed
+    }                                        
 
     public static void main(String args[]) {
         
@@ -167,7 +168,7 @@ public class MainMenu extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration - do not modify                     
     private javax.swing.JMenuItem MenuAbout;
     private javax.swing.JMenuBar MenuBar;
     private javax.swing.JMenuItem MenuExit;
@@ -180,5 +181,5 @@ public class MainMenu extends javax.swing.JFrame {
     private javax.swing.JScrollPane scrollOriginalPane;
     private javax.swing.JTextArea scrollOriginalText;
     private javax.swing.JButton transferButton;
-    // End of variables declaration//GEN-END:variables
+    // End of variables declaration                   
 }
