@@ -7,4 +7,3 @@ This application ran by **java**. It is a tool to transfer Arabic text pattern t
 |Operating System|CPU|RAM |
 |----|----|----|
 |Any OS can run jar files|CPU|RAM |
-|----|----|----|
