@@ -128,7 +128,8 @@ public class MainMenu extends javax.swing.JFrame {
     }//GEN-LAST:event_transferButtonActionPerformed
 
     private void MenuAboutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MenuAboutActionPerformed
-        JOptionPane.showMessageDialog(null, "Anas15gh\nVersion: 0.1\nLast update: 1/5/2023", "About", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Anas15gh\nVersion: 0.2\nLast update: 1/7/2023", "About", JOptionPane.INFORMATION_MESSAGE);
+        System.out.print(new FixArabicText().GetRightSymbol('ب', 'ل', 'آ') + "");
     }//GEN-LAST:event_MenuAboutActionPerformed
 
     private void MenuExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MenuExitActionPerformed
