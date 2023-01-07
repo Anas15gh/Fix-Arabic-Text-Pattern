@@ -6,4 +6,4 @@ This application ran by **java**. It is a tool to transfer Arabic text pattern t
 
 |Operating System|CPU|RAM |
 |----|----|----|
-|Any OS can run jar files|CPU|RAM |
+|Any OS can run jar files|Intel® Core™2 Duo Processor T9800 or above|256GB or above|
